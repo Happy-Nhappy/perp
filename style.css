@@ -1,0 +1,108 @@
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(maa1.jpg) ;
+    background size:cover;
+    background position:center;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    color:rgb(238, 133, 177);
+}
+nav img{
+    width: 100px;
+
+}
+.nav-links{
+    flex: 2;
+    text-align: right;
+    
+}
+.nav-links ul li{
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+
+}
+.nav-links ul li a{
+    color:rgb(218, 243, 159);
+    text-decoration: none;
+    font-size: 30px;
+    font-style:italic;
+}
+.nav-links ul li ::after{
+    content: ;
+    width: 20%;
+    height: 2px;
+    background: wheat;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li :hover::after{
+    width: 100%;
+    
+}
+.text-box{
+    width: 80%;
+    color: rgb(247, 239, 237);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+    color: blue;
+}
+.text-box p{
+    margin: auto;
+    font-size: 20px;
+    color:black;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none
+    color(srgb red);
+    border: 1px solid;
+    padding: 12px;
+    font-size: 12px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+
+}
+.btn:hover{
+    border: 2px solid;
+    background: pink;
+    transition: 1s;
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+    text-align:center;
+    padding-top: 30px;
+    background-color: yellow;
+   
+}
+h1{
+    font-size:50px;
+    font-weight: 200px;
+    text-align: center;
+    color: red;
+    
+}
+p{
+    color:blueviolet;
+    font-size: 30px;
+    font-weight: 300px;
+    line-height: 22px;
+    padding: 20px;
+    text-align: center;
+}
